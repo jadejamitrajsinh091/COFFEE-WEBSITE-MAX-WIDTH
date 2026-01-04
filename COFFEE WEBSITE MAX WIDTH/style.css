@@ -1,0 +1,401 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: rgb(234, 205, 189);
+  color: #2b2b2b;
+}
+.brand-name {
+  font-size: 2rem;
+  font-weight: 800;
+}
+.top-area {
+  background: transparent;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  overflow: hidden;
+}
+
+.btn-shop {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  height: 5vh;
+}
+
+.h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1%;
+  font-weight: 900;
+}
+
+.p {
+  font-size: 1.5rem;
+  margin-bottom: 1%;
+  font-weight: 600;
+  text-align: center;
+}
+
+.nav-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 60px;
+}
+
+.menu-list {
+  font-size: 1.5rem;
+  font-weight: 900;
+  display: flex;
+  list-style: none;
+  gap: 35px;
+  margin-right: 10%;
+}
+
+.main-banner {
+  height: 350px;
+  background: url("https://t3.ftcdn.net/jpg/01/94/82/86/360_F_194828624_llDpKzFNYmi6cfHVF8GOOoAe5KTJlc9N.jpg")
+    center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+}
+
+.banner-box span {
+  color: #ffffff;
+  letter-spacing: 4px;
+  font-size: 3rem;
+}
+
+.banner-box h1 {
+  font-size: 60px;
+  color: #ffffff;
+}
+
+.banner-box button {
+  background: #ffffff;
+  padding: 10px 26px;
+  border-radius: 18px;
+  border: none;
+}
+
+.section-box {
+  padding: 60px;
+  text-align: center;
+}
+
+.grid-three {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.card-item {
+  background: rgb(210, 181, 165);
+  border-radius: 18px;
+  padding: 15px;
+}
+
+.card-item img {
+  width: 100%;
+  height: 490px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.Coffee-Name {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.view {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  height: 5vh;
+  width: 9vw;
+  border-radius: 6px;
+  margin: 3%;
+  margin-bottom: 2%;
+}
+
+.shake-item {
+  background: rgb(210, 181, 165);
+  border-radius: 18px;
+  padding: 15px;
+  height: 720px;
+}
+
+.shake-item img {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.price {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border: 2px solid black;
+  border-radius: 6px;
+  padding: 5px;
+}
+.blog-item {
+  background: rgb(210, 181, 165);
+  border-radius: 18px;
+  padding: 15px;
+}
+
+.h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+
+.lorem {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-top: 2%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.blog-item img {
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.footer-area {
+  background-color: #1c1c1c;
+  color: #ffffff;
+}
+
+.footer-top-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 80px;
+  /* margin-top: 10px; */
+}
+
+/* .ft-col{
+  margin-top: 1px;
+} */
+
+.h4 {
+  font-size: 2rem;
+  /* margin-top:5px; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.ft-col ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.ft-col ul li {
+  margin-top: 3%;
+  font-size: 1.3rem;
+}
+
+.icon {
+  font-size: 2rem;
+  padding-right: 10px;
+  margin-top: 20px;
+}
+
+#insta {
+  color: rgb(255, 12, 105);
+}
+
+#face {
+  color: rgb(0, 110, 255);
+}
+
+#yt {
+  color: red;
+}
+
+@media (max-width: 1400px) {
+  .grid-three {
+    gap: 25px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .main-banner {
+    padding-left: 40px;
+  }
+
+  .grid-three {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .view {
+    width: 18vw;
+  }
+
+  .shake-item img,
+  .card-item img {
+    height: 420px;
+  }
+}
+
+@media (max-width: 992px) {
+  .nav-area {
+    padding: 20px 30px;
+  }
+
+  .menu-list {
+    gap: 20px;
+    font-size: 1.2rem;
+  }
+
+  .main-banner {
+    height: 300px;
+  }
+
+  .banner-box span {
+    font-size: 2rem;
+  }
+
+  .banner-box h1 {
+    font-size: 45px;
+  }
+
+  .grid-three {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .shake-item,
+  .card-item {
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-area {
+    padding: 15px 20px;
+  }
+
+  .brand-name {
+    font-size: 1.5rem;
+  }
+
+  .menu-list {
+    font-size: 1rem;
+    gap: 10px;
+  }
+
+  .main-banner {
+    padding-left: 20px;
+    height: 250px;
+  }
+
+  .banner-box h1 {
+    font-size: 35px;
+  }
+
+  .grid-three {
+    grid-template-columns: 1fr;
+  }
+
+  .view {
+    width: 40vw;
+  }
+
+  .ft-col {
+    margin: 20px;
+    /* align-items: center; */
+    margin-left: 1%;
+  }
+}
+
+@media (max-width: 576px) {
+  .main-banner {
+    height: 260px;
+    padding: 0;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .banner-box span {
+    font-size: 1.3rem;
+  }
+
+  .banner-box h1 {
+    font-size: 28px;
+  }
+
+  .btn-shop {
+    font-size: 0.9rem;
+    padding: 6px 14px;
+  }
+
+  .footer-top-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .ft-col h4 {
+    font-size: 1.3rem;
+  }
+
+  .ft-col ul li {
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
+
+  .icons-box {
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .icon {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer-top-box {
+    flex-direction: column;
+    padding: 20px;
+    gap: 25px;
+    text-align: center;
+  }
+
+  .ft-col h4 {
+    font-size: 1.4rem;
+  }
+
+  .ft-col ul li {
+    font-size: 1rem;
+    margin-top: 6px;
+  }
+
+  .icons-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 15px;
+  }
+
+  .icon {
+    font-size: 1.6rem;
+    margin-top: 0;
+  }
+}
