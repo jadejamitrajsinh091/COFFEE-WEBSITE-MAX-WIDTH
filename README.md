@@ -16,7 +16,6 @@ This site includes featured coffee categories, milkshake items, blogs, and a sle
 # 🖼 Full Website Screenshot
 <img width="1920" height="3345" alt="image" src="https://github.com/user-attachments/assets/129fdf70-22b9-46d1-a311-2d0288da6620" />
 
-*(GitHub પર image upload કર્યા પછી actual link મૂકી દેશો)*
 
 ---
 
